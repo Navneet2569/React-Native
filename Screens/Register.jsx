@@ -7,7 +7,7 @@ const Main = ({ navigation }) => {
   const [checked, setchecked] = useState(false);
   return (
     <View>
-      <Headline style={styles.heading}>Register</Headline>
+      <Headline style={styles.heading}>Register Yourself</Headline>
       <TextInput placeholder="First Name" style={styles.inputs} />
       <TextInput placeholder="Last Name" style={styles.inputs} />
       <TextInput placeholder="E-mail" style={styles.inputs} />
